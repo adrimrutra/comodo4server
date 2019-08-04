@@ -14,7 +14,7 @@
 
 ## How to start application server:
 ###### 1. Clone project with command `git clone https://github.com/adrimrutra/comodo4server.git` 
-###### 2. Open Command Prompt, navigate to the `Application-Development/Application-Development` directory, execute command `dotnet restore` - this will install all the nesesery libraries.
+###### 2. Open Command Prompt, navigate to the `comodo4server/comodo4server` directory, execute command `dotnet restore` - this will install all the nesesery libraries.
 ###### 3. Execute command `dotnet user-secrets set ConnectionString "mongodb://localhost:27017"` 
 ###### 4. Execute command `dotnet user-secrets set Database "comodo4db"` this will create environment variables.
 ###### 5. Execute `dotnet run` command, this will start sever on `https://localhost:5000`.
